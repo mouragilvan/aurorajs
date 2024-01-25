@@ -15,4 +15,15 @@ Bem-vindo ao incrível AuroraJS, uma ferramenta poderosa para desenvolvimento No
 #### Obrigado!
 
 
+## Instale as dependências
+
+```
+npm install
+```
+
+## Crie seu primeiro recurso com funções e chamadas padrão!
+
+```
+node resource.js nome-do-recurso
+```
 
