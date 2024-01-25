@@ -1,2 +1,3 @@
 /node_modules
 /src/mongo.js
+package-lock.json
