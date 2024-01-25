@@ -1,11 +1,15 @@
-const {AlunoController, AlunoMiddleware, VincularMiddleware} = require("./aluno");
-const {ClasseController, ClasseMiddleware} = require("./classe");
+//const {AlunoController, AlunoMiddleware, VincularMiddleware} = require("./aluno");
+//const {ClasseController, ClasseMiddleware} = require("./classe");
 
 module.exports =  function (app){
     app.get("/",(req,res)=>{
         return res.send({message: "API Online"});
     });
 
+    /**
+     * Exmples
+    
+    
     app.get("/alunos/:id?", AlunoController.index );
     app.post("/alunos",AlunoMiddleware.validateFields,AlunoMiddleware.handle,AlunoController.store);
     app.put("/alunos/:id",AlunoController.update);
@@ -18,4 +22,5 @@ module.exports =  function (app){
     app.delete("/classes/:id",ClasseController.destroy);
     
     app.post("/vincular-aluno", VincularMiddleware.validateFields,VincularMiddleware.handle,AlunoController.vincular );
+  */ 
 }
