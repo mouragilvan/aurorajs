@@ -1,7 +1,7 @@
 {
-  "name": "api-node-ivan",
+  "name": "aurora-js",
   "version": "1.0.0",
-  "description": "API para EBD",
+  "description": "Framework para API Rest",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
